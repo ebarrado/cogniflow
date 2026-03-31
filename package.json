@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "CogniFlow Fullstack (Frontend + Backend)",
   "scripts": {
-    "build": "cd frontend && npm install && npm run build && cd ../backend && npm install",
+    "postinstall": "cd backend && npm install && cd ../frontend && npm install && npm run build",
     "start": "cd backend && node server.js"
   },
   "engines": {
