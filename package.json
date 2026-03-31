@@ -1,0 +1,13 @@
+{
+  "name": "cogniflow-fullstack",
+  "private": true,
+  "version": "1.0.0",
+  "description": "CogniFlow Fullstack (Frontend + Backend)",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build && cd ../backend && npm install",
+    "start": "cd backend && node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
